@@ -1,4 +1,5 @@
 ﻿  shader.cpp
+  textures.cpp
 shader.obj : error LNK2001: unresolved external symbol glad_glLinkProgram
 shader.obj : error LNK2001: unresolved external symbol glad_glUniform1f
 shader.obj : error LNK2001: unresolved external symbol glad_glAttachShader
@@ -18,4 +19,8 @@ shader.obj : error LNK2001: unresolved external symbol glad_glUniform1i
 shader.obj : error LNK2001: unresolved external symbol glad_glGetProgramiv
 shader.obj : error LNK2001: unresolved external symbol glad_glCompileShader
 shader.obj : error LNK2001: unresolved external symbol glad_glGetProgramInfoLog
-C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\x64\Release\openGL2dGame.exe : fatal error LNK1120: 19 unresolved externals
+textures.obj : error LNK2001: unresolved external symbol glad_glBindTexture
+textures.obj : error LNK2001: unresolved external symbol glad_glTexImage2D
+textures.obj : error LNK2001: unresolved external symbol glad_glGenTextures
+textures.obj : error LNK2001: unresolved external symbol glad_glTexParameteri
+C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\x64\Release\openGL2dGame.exe : fatal error LNK1120: 23 unresolved externals
