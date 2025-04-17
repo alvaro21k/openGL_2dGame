@@ -10,7 +10,7 @@ class Shader
 {
 public:
     // state
-    unsigned int ID;
+    unsigned int id;
     // constructor
     Shader() { }
     // sets the current shader as active
