@@ -144,7 +144,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Game\Game.cpp" />
+    <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\stb_image_file.cpp" />
     <ClCompile Include="src\utilities\ResourceManagement.cpp" />
     <ClCompile Include="src\utilities\shader.cpp" />
     <ClCompile Include="src\utilities\textures.cpp" />

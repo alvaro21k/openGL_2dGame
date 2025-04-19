@@ -6,6 +6,9 @@
 
 #include "stb_image.h"
 
+std::map<std::string, Texture2D> ResourceManager::textures;
+std::map<std::string, Shader> ResourceManager::shaders;
+
 Shader ResourceManager::loadShader(const char* vShaderFile, const char* fShaderFile, const char* gShaderFile, std::string name)
 {
     shaders[name] = loadShaderFromFile(vShaderFile, fShaderFile, gShaderFile);

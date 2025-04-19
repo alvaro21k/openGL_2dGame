@@ -1,4 +1,7 @@
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\Game\Game.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\Game.obj
+C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\glad.c;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\glad.obj
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\main.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\main.obj
+C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\stb_image_file.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\stb_image_file.obj
+C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\utilities\ResourceManagement.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\ResourceManagement.obj
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\utilities\shader.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\shader.obj
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\utilities\textures.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\textures.obj
