@@ -3,6 +3,10 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+#include "../utilities/ResourceManagement.h"
+#include "../utilities/SpriteRenderer.h"
+#include "../utilities/textures.h"
+
 enum GameState {
     GAME_ACTIVE,
     GAME_MENU,
