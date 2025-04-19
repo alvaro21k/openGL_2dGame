@@ -1,5 +1,10 @@
-﻿  shader.cpp
-  textures.cpp
+﻿  ResourceManagement.cpp
+ResourceManagement.obj : error LNK2001: unresolved external symbol stbi_load
+ResourceManagement.obj : error LNK2001: unresolved external symbol glad_glDeleteTextures
+ResourceManagement.obj : error LNK2001: unresolved external symbol stbi_image_free
+ResourceManagement.obj : error LNK2001: unresolved external symbol "public: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Texture2D,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Texture2D> > > ResourceManager::textures" (?textures@ResourceManager@@2V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VTexture2D@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VTexture2D@@@std@@@2@@std@@A)
+ResourceManagement.obj : error LNK2001: unresolved external symbol glad_glDeleteProgram
+ResourceManagement.obj : error LNK2001: unresolved external symbol "public: static class std::map<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Shader,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,class Shader> > > ResourceManager::shaders" (?shaders@ResourceManager@@2V?$map@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VShader@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VShader@@@std@@@2@@std@@A)
 shader.obj : error LNK2001: unresolved external symbol glad_glLinkProgram
 shader.obj : error LNK2001: unresolved external symbol glad_glUniform1f
 shader.obj : error LNK2001: unresolved external symbol glad_glAttachShader
@@ -23,4 +28,4 @@ textures.obj : error LNK2001: unresolved external symbol glad_glBindTexture
 textures.obj : error LNK2001: unresolved external symbol glad_glTexImage2D
 textures.obj : error LNK2001: unresolved external symbol glad_glGenTextures
 textures.obj : error LNK2001: unresolved external symbol glad_glTexParameteri
-C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\x64\Release\openGL2dGame.exe : fatal error LNK1120: 23 unresolved externals
+C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\x64\Release\openGL2dGame.exe : fatal error LNK1120: 29 unresolved externals

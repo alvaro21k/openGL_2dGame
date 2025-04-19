@@ -138,12 +138,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\Game\Game.h" />
+    <ClInclude Include="src\utilities\ResourceManagement.h" />
     <ClInclude Include="src\utilities\shader.h" />
     <ClInclude Include="src\utilities\textures.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Game\Game.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\utilities\ResourceManagement.cpp" />
     <ClCompile Include="src\utilities\shader.cpp" />
     <ClCompile Include="src\utilities\textures.cpp" />
   </ItemGroup>
