@@ -27,7 +27,7 @@ void GameLevel::Load(const char* file, unsigned int levelWidth, unsigned int lev
 
 void GameLevel::Draw(SpriteRenderer& renderer)
 {
-	for (auto& tile : this->bricks)
+	for (GameObject& tile : this->bricks)
 	{
 		if (!tile.isDestroyed)
 		{

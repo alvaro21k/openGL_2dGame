@@ -2,10 +2,12 @@
 
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <vector>
 
 #include "../utilities/ResourceManagement.h"
 #include "../utilities/SpriteRenderer.h"
 #include "../utilities/textures.h"
+#include "./GameLevel.h"
 
 enum GameState {
     GAME_ACTIVE,
@@ -15,7 +17,8 @@ enum GameState {
 
 class Game {
 public:
-
+    std::vector<GameLevel> levels;
+    unsigned int level;
 	//game state
 	GameState state;
 	bool keys[1024];
