@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="src\Game\Game.h" />
+    <ClInclude Include="src\Game\GameLevel.h" />
     <ClInclude Include="src\Game\GameObject.h" />
     <ClInclude Include="src\utilities\ResourceManagement.h" />
     <ClInclude Include="src\utilities\shader.h" />
@@ -146,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Game\Game.cpp" />
+    <ClCompile Include="src\Game\GameLevel.cpp" />
     <ClCompile Include="src\Game\GameObject.cpp" />
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\main.cpp" />
