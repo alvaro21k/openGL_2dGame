@@ -1,6 +1,7 @@
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\Game\Game.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\Game.obj
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\Game\GameLevel.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\GameLevel.obj
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\Game\GameObject.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\GameObject.obj
+C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\Game\GameObjects\BallObject.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\BallObject.obj
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\glad.c;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\glad.obj
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\main.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\main.obj
 C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\src\stb_image_file.cpp;C:\Users\Alvaro\Documents\Workspace\openGl_game\openGL2dGame\openGL2dGame\x64\Release\stb_image_file.obj

@@ -8,6 +8,7 @@
 #include "../utilities/SpriteRenderer.h"
 #include "../utilities/textures.h"
 #include "./GameLevel.h"
+#include "./GameObjects/BallObject.h"
 
 enum GameState {
     GAME_ACTIVE,
@@ -31,7 +32,5 @@ public:
     // game loop
     void ProcessInput(float dt);
     void Update(float dt);
-    void Render();
-
-    
+    void Render();  
 };
