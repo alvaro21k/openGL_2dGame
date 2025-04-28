@@ -13,6 +13,8 @@ BallObject* Ball;
 GameObject* Player;
 SpriteRenderer* Renderer;
 
+bool CheckCollision(GameObject& one, GameObject& two);
+
 Game::Game(unsigned int width, unsigned int height)
     : state(GAME_ACTIVE), keys(), width(width), height(height)
 {
@@ -62,6 +64,7 @@ void Game::Init()
 void Game::Update(float dt)
 {
     Ball->Move(dt, this->width);
+    this->DoCollision();
 }
 
 void Game::ProcessInput(float dt)
@@ -113,4 +116,32 @@ void Game::Render()
         Player->Draw(*Renderer);
         Ball->Draw(*Renderer);
     }
+}
+
+void Game::DoCollision()
+{
+    for (GameObject& box : this->levels[this->level].bricks)
+    {
+        if (!box.isDestroyed)
+        {
+            if (CheckCollision(*Ball, box))
+            {
+                if (!box.isSolid)
+                {
+                    box.isDestroyed = true;
+                }
+            }
+        }
+    }
+}
+
+bool CheckCollision(GameObject& one, GameObject& two)
+{
+    bool collisionX = one.position.x + one.size.x >= two.position.x &&
+        two.position.x + two.size.x >= one.position.x;
+
+    bool collisionY = one.position.y + one.size.y >= two.position.y &&
+        two.position.y + two.size.y >= one.position.y;
+
+    return collisionX && collisionY;
 }
