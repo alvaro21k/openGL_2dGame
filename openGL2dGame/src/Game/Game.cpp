@@ -14,6 +14,7 @@ GameObject* Player;
 SpriteRenderer* Renderer;
 
 bool CheckCollision(GameObject& one, GameObject& two);
+//bool CheckCollision(BallObject& ball, GameObject& two);
 
 Game::Game(unsigned int width, unsigned int height)
     : state(GAME_ACTIVE), keys(), width(width), height(height)
@@ -144,4 +145,19 @@ bool CheckCollision(GameObject& one, GameObject& two)
         two.position.y + two.size.y >= one.position.y;
 
     return collisionX && collisionY;
+}
+
+bool CheckCollision(BallObject& ball, GameObject& two)
+{
+    glm::vec2 center(ball.position + ball.radius);
+
+    glm::vec2 half_extents(two.size.x / 2.0f, two.size.y / 2.0f);
+    glm::vec2 aabb_center(two.position.x + half_extents.x, two.position.y + half_extents.y);
+    glm::vec2 difference = center - aabb_center;
+
+    glm::vec2 clamped = glm::clamp(difference, -half_extents, half_extents);
+    glm::vec2 closest = aabb_center + clamped;
+
+    difference = closest - center;
+    return glm::length(difference) < ball.radius;
 }
